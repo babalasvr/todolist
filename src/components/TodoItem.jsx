@@ -43,7 +43,7 @@ export default function TodoItem({todo, delItem}) {
                     edge="start"
                     tabIndex={-1}
                     disableRipple
-                    // onClick={checked}}
+                    // onClick={checked}
                   />
                 </ListItemIcon>
                 <ListItemText /*className={style}*/primary={todo.text} />
